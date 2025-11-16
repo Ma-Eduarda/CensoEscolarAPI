@@ -1,0 +1,4 @@
+venv
+*.pyc
+**/*.pyc
+microdados_ed_basica_2024.csv
