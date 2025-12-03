@@ -12,11 +12,16 @@ def index():
 
 @app.get("/instituicoesensino")
 def getInstituicoesEnsino():
+    page = int(request.args.get("page", 1))
+    limit = int(request.args.get("limit", 100))
+    
+    offset = (page - 1) * limit ## /instituicoesensino?page=1&limit=100
+    
     conn = sqlite3.connect(DATABASE_NAME)
     cursor = conn.cursor()
     
-    statement = "SELECT * FROM tb_instituicao LIMIT 100 OFFSET 0"
-    cursor.execute(statement)
+    statement = "SELECT * FROM tb_instituicao LIMIT ? OFFSET ?"
+    cursor.execute(statement, (limit, offset))
 
     resultset = cursor.fetchall()
 
