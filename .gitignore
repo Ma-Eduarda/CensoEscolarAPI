@@ -1,4 +1,8 @@
 venv
+.venv
 *.pyc
 **/*.pyc
 microdados_ed_basica_2024.csv
+microdados_ed_basica_2023.csv
+microdados_ed_basica_2022.csv
+censo_escolar.db

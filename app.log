@@ -1,0 +1,62 @@
+2025-12-03 01:51:47,505 - INFO - Inciando a criação da tabela...
+2025-12-03 01:51:47,510 - INFO - Tabela criada!
+2025-12-03 01:52:16,343 - INFO - Iniciando extração de dados do csv...
+2025-12-03 01:52:27,082 - INFO - Extração concluída!
+2025-12-03 01:52:27,083 - INFO - Fechando conexão com o banco de dados...
+2025-12-03 01:52:44,245 - INFO - Iniciando extração de dados do csv...
+2025-12-03 01:52:55,020 - INFO - Extração concluída!
+2025-12-03 01:52:55,021 - INFO - Fechando conexão com o banco de dados...
+2025-12-03 01:53:14,275 - INFO - Iniciando extração de dados do csv...
+2025-12-03 01:53:24,532 - INFO - Extração concluída!
+2025-12-03 01:53:24,532 - INFO - Fechando conexão com o banco de dados...
+2025-12-03 03:31:19,087 - INFO - get - /instituicoesensino
+2025-12-03 04:16:30,699 - INFO - get - /instituicoesensino/ranking/2022
+2025-12-03 04:16:43,582 - INFO - get - /instituicoesensino/ranking/2020
+2025-12-03 04:16:56,817 - INFO - get - /instituicoesensino/ranking/2024
+2025-12-03 04:19:35,751 - INFO - get - /instituicoesensino/ranking/2020
+2025-12-03 04:19:35,752 - WARNING - Ano inválido solicitado para ranking: 2020
+2025-12-03 04:20:23,148 - INFO - get - /instituicoesensino/ranking/2020
+2025-12-03 04:20:23,148 - WARNING - Ano inválido solicitado para ranking: 2020
+2025-12-03 04:21:15,942 - INFO - get - /instituicoesensino/ranking/2020
+2025-12-03 04:21:15,942 - ERROR - Ano inválido solicitado para ranking: 2020
+2025-12-03 04:23:11,565 - INFO - get - /instituicoesensino/ranking/2023
+2025-12-03 17:58:44,728 - INFO - get - /instituicoesensino
+2025-12-03 17:59:18,875 - INFO - get - /instituicoesensino
+2025-12-03 17:59:23,059 - INFO - get - /instituicoesensino
+2025-12-03 17:59:27,193 - INFO - get - /instituicoesensino
+2025-12-03 17:59:39,387 - INFO - get - /instituicoesensino
+2025-12-03 17:59:45,330 - INFO - get - /instituicoesensino
+2025-12-03 17:59:48,435 - INFO - get - /instituicoesensino
+2025-12-03 17:59:56,429 - INFO - get - /instituicoesensino
+2025-12-03 18:00:01,782 - INFO - get - /instituicoesensino
+2025-12-03 18:00:05,936 - INFO - get - /instituicoesensino
+2025-12-03 18:00:11,360 - INFO - get - /instituicoesensino
+2025-12-03 23:13:58,064 - INFO - get - /instituicoesensino/ranking/2023
+2025-12-04 03:31:21,124 - INFO - get - /instituicoesensino/ranking/2023
+2025-12-04 03:31:32,955 - INFO - get - /instituicoesensino/ranking/2022
+2025-12-04 03:31:45,868 - INFO - get - /instituicoesensino
+2025-12-04 03:31:59,552 - INFO - get - /instituicoesensino
+2025-12-04 03:32:07,146 - INFO - get - /instituicoesensino
+2025-12-04 03:42:06,093 - INFO - post - /instituicoesensino
+2025-12-04 03:42:30,050 - INFO - post - /instituicoesensino
+2025-12-04 03:42:44,393 - INFO - post - /instituicoesensino
+2025-12-04 03:43:14,756 - INFO - post - /instituicoesensino
+2025-12-04 03:43:29,875 - INFO - get - /instituicoesensino/657820
+2025-12-04 03:43:38,702 - INFO - put - /instituicoesensino/657820
+2025-12-04 03:43:43,195 - INFO - put - /instituicoesensino/657820
+2025-12-04 03:43:50,922 - INFO - get - /instituicoesensino/657820
+2025-12-04 03:43:55,707 - INFO - delete - /instituicoesensino/657820
+2025-12-04 03:43:59,053 - INFO - get - /instituicoesensino/657820
+2025-12-04 04:04:16,410 - INFO - get - /instituicoesensino
+2025-12-04 04:04:44,383 - INFO - post - /instituicoesensino
+2025-12-04 04:04:44,385 - ERROR - Validation error: {'qt_mat_total': ['Unknown field.'], 'id': ['Unknown field.']}
+2025-12-04 04:05:11,057 - INFO - post - /instituicoesensino
+2025-12-04 04:05:11,058 - ERROR - Validation error: {'no_entidade': ['Length must be between 2 and 100.']}
+2025-12-04 04:05:27,529 - INFO - post - /instituicoesensino
+2025-12-04 04:05:56,385 - INFO - get - /instituicoesensino/657821
+2025-12-04 04:06:04,461 - INFO - put - /instituicoesensino/657821
+2025-12-04 04:06:09,425 - INFO - put - /instituicoesensino/657821
+2025-12-04 04:06:09,426 - ERROR - Validation error: {'no_entidade': ['Length must be between 2 and 100.']}
+2025-12-04 04:06:17,121 - INFO - put - /instituicoesensino/657821
+2025-12-04 04:06:20,987 - INFO - delete - /instituicoesensino/657821
+2025-12-04 04:06:23,953 - INFO - get - /instituicoesensino/657821

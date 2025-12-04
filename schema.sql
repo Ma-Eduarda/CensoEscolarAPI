@@ -1,12 +1,30 @@
 CREATE TABLE IF NOT EXISTS tb_instituicao (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        codigo TEXT NOT NULL,
-        nome TEXT NOT NULL,
-        co_uf INTEGER NOT NULL,
-        co_municipio INTEGER NOT NULL,
-        qt_mat_bas INTEGER NOT NULL,
-        qt_mat_prof INTEGER NOT NULL,
-        qt_mat_eja INTEGER NOT NULL,
-        qt_mat_esp INTEGER NOT NULL
-);
 
+        nu_ano_censo INTEGER,
+        no_entidade TEXT,
+        co_entidade INTEGER,
+        no_uf TEXT,
+        sg_uf TEXT,
+        co_uf INTEGER,
+        no_municipio TEXT,
+        co_municipio INTEGER,
+        no_mesorregiao TEXT,
+        co_mesorregiao INTEGER,
+        no_microrregiao TEXT,
+        co_microrregiao INTEGER,
+        no_regiao TEXT,
+        co_regiao INTEGER,
+
+        qt_mat_bas INTEGER,
+        qt_mat_prof INTEGER,
+        qt_mat_eja INTEGER,
+        qt_mat_esp INTEGER,
+        qt_mat_fund INTEGER,
+        qt_mat_inf INTEGER,
+        qt_mat_med INTEGER,
+        qt_mat_zr_na INTEGER,
+        qt_mat_zr_rur INTEGER,
+        qt_mat_zr_urb INTEGER,
+        qt_mat_total INTEGER
+);
